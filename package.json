@@ -1,6 +1,6 @@
 {
   "name": "@stacker/storybook-webpack-auto-title-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "> sb标题自动修改，存在需求自动将组件函数名称追加到标题上，位置为前或后，当前sb没有提供口子，因此采用webpack插件方式解决该需求",
   "main": "index.js",
   "scripts": {
