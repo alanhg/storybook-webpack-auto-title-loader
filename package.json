@@ -1,0 +1,24 @@
+{
+  "name": "@stacker/storybook-webpack-auto-title-loader",
+  "version": "0.1.0",
+  "description": "> sb标题自动修改，存在需求自动将组件函数名称追加到标题上，位置为前或后，当前sb没有提供口子，因此采用webpack插件方式解决该需求",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanhg/storybook-webpack-auto-title-suffix-plugin.git"
+  },
+  "author": "Alan He",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanhg/storybook-webpack-auto-title-loader/issues"
+  },
+  "homepage": "https://github.com/alanhg/storybook-webpack-auto-title-loader#readme",
+  "dependencies": {
+    "@babel/generator": "^7.17.9",
+    "@babel/parser": "^7.17.9",
+    "@babel/traverse": "^7.17.9"
+  }
+}
