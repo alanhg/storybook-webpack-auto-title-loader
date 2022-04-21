@@ -5,6 +5,14 @@
 ## 使用
 
 .storybook/main.js
+
+### 说明
+appendTitle为回调函数，当前暴露2个参数
+
+title为当前设定标题，componentName为组件函数名称
+
+### 例子
+
 ```js
 const path = require('path');
 module.exports = {
