@@ -22,7 +22,7 @@ module.exports = {
     webpackFinal: async (config, {configType}) => {
     config.module.rules.push({
       test: /\.stories\.(jsx?$|tsx?$)/, use: [{
-        loader: path.resolve(__dirname, './auto-title.loader.js'), options: {
+        loader: '@stacker/storybook-webpack-auto-title-loader', options: {
           appendTitle: ({title, componentName}) => `${title}-${componentName}`
         }
       }], include: path.resolve(__dirname, '../lib'),
